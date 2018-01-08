@@ -23,6 +23,8 @@ namespace SomethingForGitHub
             }
             Console.WriteLine(j);
 
+            Console.WriteLine("G.I. Joe!");
+
             Console.ReadKey();
         }
     }
