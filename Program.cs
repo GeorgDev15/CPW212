@@ -17,6 +17,12 @@ namespace SomethingForGitHub
             }
             Console.WriteLine("Yo Joe!");
 
+            if(j == 11)
+            {
+                j++;
+            }
+            Console.WriteLine(j);
+
             Console.ReadKey();
         }
     }
