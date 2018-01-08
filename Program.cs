@@ -10,7 +10,14 @@ namespace SomethingForGitHub
     {
         static void Main(string[] args)
         {
+            int j = 11;
+            for(int i = 1; i < j; i++)
+            {
+                Console.WriteLine(i);
+            }
             Console.WriteLine("Yo Joe!");
+
+            Console.ReadKey();
         }
     }
 }
